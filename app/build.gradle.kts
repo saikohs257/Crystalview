@@ -13,10 +13,12 @@ android {
         targetSdk = 35
         versionCode = 3
         versionName = "1.1.0-capture-fabric-v1"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 }
 
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
+    testImplementation("junit:junit:4.13.2")
 }
