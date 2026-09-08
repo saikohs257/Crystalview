@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CrystalClearview</string>
+    <string name="accessibility_description">Captures visible delivery-offer telemetry from configured driver apps for local decision-support analysis.</string>
+</resources>
